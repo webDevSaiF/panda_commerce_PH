@@ -23,6 +23,274 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <!-- ==HEADER SECTION START== -->
+    <header class="container mb-80">
+      <!-- ==NAVIGATION== -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shoes">Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#backpack">Backpack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#subscribe">Subscribe</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <!-- ==HEADER SECTION END== -->
+
+    <!-- ==HERO SECTION START== -->
+    <section class="container hero-section mb-80">
+      <!-- ==SLIDER== -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide bg-white"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active bg-light-pink">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <h2>
+                  SteelSeries Siberia V2 Navi Full-Size Gaming Headset (Yellow)
+                </h2>
+                <p>
+                  Closed ear headphones, Pull-out microphone Crystal clear high,
+                  low and mid-tones 50mm driver units, Lightweight suspension
+                  construction, Integrated volume control located on the cord
+                </p>
+                <h3 class="price-tag font-weight-bold mb-3">$199.00</h3>
+                <button class="text-uppercase buy-now-btn">buy now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./assets/images/banner-images/headphone.png"
+                  class="d-block w-100 img-fluid"
+                  alt="headphone image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg-light-pink">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <h2>Amazon Fire TV 43" 4-Series 4K UHD smart TV</h2>
+                <p>
+                  Amazon Fire TV 4-Series comes with a 1-year limited warranty
+                  and a 30-day Amazon Device return policy. Learn more about
+                  Amazon Device returns.
+                </p>
+                <h3 class="price-tag font-weight-bold mb-3">$168.99</h3>
+                <button class="text-uppercase buy-now-btn">buy now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./assets/images/banner-images/tv.png"
+                  class="d-block w-100 img-fluid"
+                  alt="televison image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg-light-pink">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7">
+                <h2>Microsoft Xbox One S 1Tb Console - White</h2>
+                <p>
+                  Watch 4K Blue ray movies and stream 4K content on Netflix and
+                  Amazon video Experience richer, more luminous colors in games
+                  and video with high dynamic range Play over 100 console
+                  exclusives and a growing library of Xbox 360 games on Xbox 1
+                </p>
+                <h3 class="price-tag font-weight-bold mb-3">$278.97</h3>
+                <button class="text-uppercase buy-now-btn">buy now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./assets/images/banner-images/xbox.png"
+                  class="d-block w-100 img-fluid"
+                  alt="xbox image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleIndicators"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleIndicators"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- ==HERO SECTION END== -->
+
+    <!-- ==CATEGORIES SECTION START== -->
+    <section class="container categories-section mb-80">
+      <!-- ==ROW 1== -->
+      <div class="row">
+        <!-- ==COLUMN 1== -->
+        <div class="col-md-4">
+          <div
+            class="cat-1 cat d-flex align-items-center justify-content-between"
+          >
+            <h3 class="text-light">Watch</h3>
+            <img
+              src="./assets/images/categories/watch.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <!-- ==COLUMN 2== -->
+
+        <div class="col-md-4">
+          <div
+            class="cat-2 cat d-flex flex-row align-items-center justify-content-between"
+          >
+            <h3 class="text-light">Bags</h3>
+            <img
+              src="./assets/images/categories/bag.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <!-- ==COLUMN 3== -->
+
+        <div class="col-md-4">
+          <div
+            class="cat-3 cat d-flex flex-row align-items-center justify-content-between"
+          >
+            <h3 class="text-light">Shoes</h3>
+            <img
+              src="./assets/images/categories/shoes.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==CATEGORIES SECTION END== -->
+
+    <!-- ==SHOES SECTION START== -->
+    <section class="container shoes-section mb-80" id="shoes">
+      <h2 class="section-title">Shoes</h2>
+      <div class="card-deck mt-40">
+        <div class="card">
+          <img
+            src="./assets/images/shoes/shoe-1.png"
+            class="card-img-top"
+            alt="shoe image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">adidas Yeezy Boost 350 V2</h5>
+            <p class="card-text">
+              Standing out from the pack, the Yeezy Boost 350 V2 “Carbon”
+              features a predominantly black and grey Primeknit upper with
+              contrasting patterns woven into the material.
+            </p>
+            <h5 class="mb-3">$297.00</h5>
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/images/shoes/shoe-2.png"
+            class="card-img-top"
+            alt="shoe image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nike Men's Low-Top Sneakers</h5>
+            <p class="card-text">
+              Max air unit for maximum comfort. Leather for super resistance.
+              The Nike air max LTD 3 men's shoe gives comfort with a genuine
+              synthetic leather upper and cushioning With a max air unit under
+              the heel.
+            </p>
+            <h5 class="mb-3">$119.00</h5>
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/images/shoes/shoe-3.png"
+            class="card-img-top"
+            alt="shoe image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Nike Mens Air Max 2017 849559 302</h5>
+            <p class="card-text">
+              The Nike Air Max 302 Running Shoe is designed for maximum support
+              of the entire foot. The Max Air unit on the heel offers reactive
+              cushioning kilometer after kilometer.
+            </p>
+            <h5 class="mb-3">$142.92</h5>
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==SHOES SECTION END== -->
+
     <!-- BOOTSTRAP JS CDN-->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

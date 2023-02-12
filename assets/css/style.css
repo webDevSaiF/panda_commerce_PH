@@ -1,7 +1,112 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:wght@400;700&family=Montserrat:wght@600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
+:root {
+  --price-tag-color: #ff136f;
+  --white-color: #ffffff;
+}
 body {
   /* font-family: "Caveat", cursive;
   font-family: "Lato", sans-serif;
   font-family: "Montserrat", sans-serif; */
   font-family: "Poppins", sans-serif;
+}
+/* ==CSS INDEX==
+=> 00. REUSABLE CSS
+=> 01. HERO SECTION
+=> 02. CATEGORIES SECTION
+
+*/
+/* == 00. REUSABLE CSS== */
+.bg-light-pink {
+  background-color: #feeae9;
+}
+.section-title {
+  font-family: "Caveat", cursive;
+  font-size: 48px;
+  border-bottom: 4px solid var(--price-tag-color);
+  max-width: 130px;
+}
+.buy-now-btn {
+  background-color: var(--price-tag-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  transition: all 0.4s ease-in;
+}
+.card {
+  border: none;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mb-80 {
+  margin-bottom: 100px;
+}
+/* == 01. HERO SECTION== */
+
+.hero-section .carousel-item {
+  padding: 20px 40px;
+  border-radius: 12px;
+}
+.hero-section .price-tag {
+  color: var(--price-tag-color);
+}
+
+.hero-section .slider-buy-now-btn:hover {
+  opacity: 0;
+}
+/* ==CATEGORIES SECTION== */
+.categories-section .cat {
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.categories-section .cat-1 {
+  background: #fc00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00dbde,
+    #fc00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00dbde,
+    #fc00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.categories-section .cat-3 {
+  background: #00c9ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #92fe9d,
+    #00c9ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #92fe9d,
+    #00c9ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.categories-section .cat-2 {
+  background: #ffb75e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ed8f03,
+    #ffb75e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ed8f03,
+    #ffb75e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.categories-section .cat h3 {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: "Caveat", cursive;
+}
+.categories-section .cat img {
+  max-width: 100px;
 }
