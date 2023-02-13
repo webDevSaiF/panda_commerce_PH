@@ -13,6 +13,7 @@ body {
 => 00. REUSABLE CSS
 => 01. HERO SECTION
 => 02. CATEGORIES SECTION
+=> 03. FOOTER SECTION
 
 */
 /* == 00. REUSABLE CSS== */
@@ -36,6 +37,12 @@ body {
 .card {
   border: none;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+.card-footer {
+  background: transparent;
+}
+.radius-12 {
   border-radius: 12px;
 }
 .mt-40 {
@@ -109,4 +116,18 @@ body {
 }
 .categories-section .cat img {
   max-width: 100px;
+}
+/* ==FOOTER SECTION== */
+.footer-section {
+  border-top: 1px solid #e8e7e7;
+}
+
+@media screen and (max-width: 769px) {
+  /* ==MARGIN== */
+  .mb-m-20 {
+    margin-bottom: 20px;
+  }
+  .mb-m-40 {
+    margin-bottom: 40px;
+  }
 }
